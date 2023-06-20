@@ -3,6 +3,7 @@
 #include <string.h>
 /**
  *main - Print alphabet without q and e.
+ *
  *Return: 0 if success
  *
  */
@@ -13,7 +14,7 @@ char letter = 'a';
 while (letter <= 'z')
 {
 if (letter != 'e' && letter != 'q')
-
+{
 putchar(letter);
 }
 letter++;
