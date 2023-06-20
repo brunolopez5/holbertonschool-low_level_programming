@@ -12,7 +12,7 @@ char letter = 'a';
 
 while (letter <= 'z')
 {
-if (letter != 'e' && alp != 'q')
+if (letter != 'e' && letter != 'q')
 
 putchar(letter);
 }
