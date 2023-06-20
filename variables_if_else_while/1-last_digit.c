@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Locking for digits bigger than 0 and  less than 10.
+ * main - Looking for digits bigger than 0 and  less than 10.
  *
  * Return: Always 0
-*/
+ */
 int main(void)
 {
 	int n;
@@ -22,7 +22,7 @@ int main(void)
 	}
 	else
 	{
-		printf("Last digit of %d and is less than 6 and not 0\n", n, n % 10);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
 	}
 
 	return (0);
