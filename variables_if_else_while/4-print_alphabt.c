@@ -8,15 +8,15 @@
  */
 int main(void)
 
-char alp = 'a';
+char letter = 'a';
 
-while (alp <= 'z')
+while (letter <= 'z')
 {
-if (alp != 'e' && alp != 'q')
+if (letter != 'e' && alp != 'q')
 
-putchar(alp);
+putchar(letter);
 }
-alp++;
+letter++;
 }
 putchar('\n');
 
