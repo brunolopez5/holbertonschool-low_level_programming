@@ -6,18 +6,18 @@
  */
 int main(void)
 {
-        char alp = 'a';
-	char alphabet = 'A';
+char alp = 'a';
+char alphabet = 'A';
 
-        for (alp = 'a'; alp <= 'z'; alp++)
-        {
-                putchar(alp);
-        }
-        for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
-	{
-		putchar(alphabet);
-	}
-	putchar('\n');
+for (alp = 'a'; alp <= 'z'; alp++)
+{
+putchar(alp);
+}
+for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
+{
+putchar(alphabet);
+}
+putchar('\n');
 
-        return (0);
+return (0);
 }
