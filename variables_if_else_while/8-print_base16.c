@@ -16,11 +16,11 @@
 
  {
 
- if (base < 10)
+ if (base < 10);
 
  {
 
- putchar('0' + base)
+ putchar('0' + base);
 
  }
 
