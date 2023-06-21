@@ -8,33 +8,33 @@
  * Return: Always 0
  *
  */
- int main(void)
- {
- int base;
+int main(void)
+{
+int base;
 
- for (base = 0; base < 16; base++)
+for (base = 0; base < 16; base++)
 
- {
+{
 
- if (base < 10)
+if (base < 10)
 
- {
+{
 
- putchar('0' + base);
+putchar('0' + base);
 
- }
+}
 
- else
+else
 
- {
+{
 
- putchar('a' + (base - 10));
- }
+putchar('a' + (base - 10));
+}
 
- }
+}
 
- putchar('\n');
- return (0);
+putchar('\n');
+return (0);
 
- }
+}
  
