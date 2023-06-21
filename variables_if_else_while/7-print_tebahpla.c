@@ -10,7 +10,7 @@
  */
 int main(void)
 {
-	int apl;
+	int alp;
 
 	for (alp = 'z'; alp >= 'a'; alp--)
 	{
