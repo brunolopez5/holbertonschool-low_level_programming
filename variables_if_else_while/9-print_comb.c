@@ -13,9 +13,9 @@ int main(void)
 
 	for (hola = 0; hola < 10; hola++)
 	{
-		putchar('0' + hola)
+		putchar('0' + hola);
 
-		if (holla != 9)
+		if (holla != 9);
 		{
 			putchar(',');
 			putchar(' '):
