@@ -4,13 +4,13 @@
 /**
  *main - Print all single digit # of base 10 starting from 0 .
  *
- *Return: 0 if success
+ *Return: 0 success
  */
 int main(void)
 {
 	int x;
 
-	for (x = 48, x < 58; x++)
+	for (x = 48; x < 58; x++)
 	{
 		putchar(x);
 	}
